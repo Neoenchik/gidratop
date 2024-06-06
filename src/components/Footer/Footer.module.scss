@@ -1,0 +1,75 @@
+
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f2f6;
+}
+
+.footer a{
+    color: #6f7682;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #85df94;
+    text-decoration:underline;
+}
+
+.footer p{
+    color: #6f7682;
+}
+
+.We{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.We img {
+    
+    margin-bottom: 10px; /* Дополнительный отступ снизу для изображений внутри .We */
+}
+
+.We .payment .images{
+    display: flex;
+}
+
+.buyer{
+    display: flex;
+    flex-direction: column;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts Link{
+    display: flex;
+    gap:10px;
+}
+
+.subscription input{
+    border: none;
+    width: 385px;
+    height: 40px;
+}
+
+.subscription button{
+    background-color: #4798de;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+}
