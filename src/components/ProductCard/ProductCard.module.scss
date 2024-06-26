@@ -1,0 +1,55 @@
+.productCard{
+    .imageWrapper {
+        position: relative;
+        width: 300px;
+        height: 220px;
+        
+        .HitOfSales{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 102px;
+            height: 25px;
+        }
+    }
+    .description{
+        margin-top: 8px;
+        p{
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            color: #6f7682;
+            margin: 0;
+        }
+
+        .name{
+            font-size: 14px;
+        }
+
+        .brand{
+            margin-top: 15px;
+        }
+        .country{
+            margin-bottom: 10px;
+        }
+
+        .brand,
+        .country{
+            font-size: 13px;
+            line-height: 138%;
+        }
+    
+        .availability{
+            font-size: 13px;
+            color: #4798de;
+        }
+
+        .price{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 22px;
+            color: #15244f;
+        }
+    }
+    
+}

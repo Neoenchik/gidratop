@@ -1,0 +1,46 @@
+.newsCard{
+    width: 409px;
+    height: 418px;
+    .imageWrapper {
+        position: relative;
+        width: 408px;
+        height: 273px;
+        button{
+            background-color: #4798DE;
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+            border-color: transparent;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 170px;
+            height: 40px;
+        }
+    }
+    .description{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 60px;
+        p{
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            color: #6f7682;
+            margin: 0;
+        }
+
+        .name{
+            font-size: 16px;
+            color: #15244f;
+            margin-bottom: 18px;
+        }
+
+        .str1, .str2{
+            font-size: 14px;
+            color: #6f7682;
+        }
+    }
+    
+}

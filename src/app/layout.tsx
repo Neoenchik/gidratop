@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,15 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GidraTop</title>
     </head>
-    <main>
-      
-    </main>
       <body>
+        <Header/>
+        <main>{children}</main>
         <Footer/>  
       </body>
     </html>
