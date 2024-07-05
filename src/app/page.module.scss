@@ -1,0 +1,190 @@
+.main{
+  .title{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #15244f;
+    margin-bottom: 90px;
+  }
+
+  .banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    .bannerImage{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .leftArrow, .rightArrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    .leftArrow {
+      left: 10px; /* Расстояние от левого края баннера */
+      transform: translateY(-50%) rotate(180deg); /* Поворот на 180 градусов */
+    }
+  
+    .rightArrow {
+      right: 10px; /* Расстояние от правого края баннера */
+    }
+  
+    .arrowContainer {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  
+      .vectorImage {
+        width: 11px;
+        height: 20px;
+      }
+    }
+    .slider{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+  }
+
+  .promotions{
+    margin: 113px 75px 0 75px;
+    .title{
+      display: flex;
+      justify-content: space-between;
+      a{
+        font-weight: 700;
+        font-size: 16px;
+        color: #4798de;
+        text-decoration: none;
+      }
+    }
+    .promotionbanners{
+      margin-top: 80px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 30px;
+    }
+    
+    .buttons{
+      margin-top: 130px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+
+      .up,
+      .down {
+        display: flex;
+        height: 60px;
+        
+      }
+      .up{
+        font-size: 16px;
+      }
+      .down{
+        
+        font-size: 14px;
+        button{
+          background-color: #F1F2F6;
+        }
+      }
+      button{
+        flex: 1;
+        border: none;
+        background-color: #fff;
+        text-align: center;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: #6f7682;
+      }
+    }
+    .productCards{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      button{
+        margin-top: 30px;
+        width: 140px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #4798de;
+        font-family: "PT Sans", sans-serif;
+        background-color: #FFF;
+        border-color: #4798de;
+        border-radius: 5px;
+        border-width: 1px;
+        align-self: center;
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .background{
+    width: 100%;
+    height: auto;
+  }
+  
+  .menuBar{
+    display: flex;
+    margin: 40px 75px 0 75px;
+    flex-direction: column;
+    .promo{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .popularCategories{
+    margin: 130px 75px 0 75px;
+  }
+  .advert{
+    margin: 130px 75px 0 75px;
+    .banner{
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  .recommendProduct{
+    margin: 130px 75px 0 75px;
+  }
+
+  .popularBrands{
+    margin: 130px 75px 0 75px;
+
+    .title{
+      display: flex;
+      justify-content: space-between;
+      a{
+        font-weight: 700;
+        font-size: 16px;
+        color: #4798de;
+        text-decoration: none;
+      }
+    }
+
+    .banner{
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  .newsEvents{
+    margin: 130px 75px 140px 75px;
+  }
+}
