@@ -20,4 +20,7 @@ export interface News {
   str2: string;
 }
 
-  
+export interface Promotions{
+  image: string;
+  link: string;
+}  

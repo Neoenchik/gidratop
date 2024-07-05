@@ -5,6 +5,8 @@ import ProductList from "@/components/ProductList";
 import Slider from "@/slider";
 import CategoriesList from "@/components/CategoriesList";
 import NewsList from "@/components/NewsList";
+import Responsive from "@/components/MainPage/Promotions";
+
 
 export default function Home() {
   return (
@@ -43,11 +45,7 @@ export default function Home() {
           <div>Акции</div>
           <Link href="/">Все Акции</Link>
         </div>
-        <div className={styles.promotionbanners}>
-          <Image width={410} height={208} src="/Assets/images/promotion1.png" alt="promotion"/>
-          <Image width={410} height={208} src="/Assets/images/promotion2.png" alt="promotion"/>
-          <Image width={410} height={208} src="/Assets/images/promotion3.png" alt="promotion"/>
-        </div>
+        <Responsive/>
         <Slider/>
         <div className={styles.buttons}>
           <div className={styles.up}>
