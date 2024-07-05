@@ -1,6 +1,7 @@
 // src/types/product.ts
-export interface Product {
-    image: string;
+export interface ProductCard {
+    id: number;
+    imageUrl: string;
     name: string;
     brand: string;
     country: string;

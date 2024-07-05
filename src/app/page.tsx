@@ -72,7 +72,7 @@ export default function Home() {
         </div>
         
       </div>
-      <Image src="/Assets/images/background.png"
+      <Image src="/Assets/images/background.svg"
         alt="background"
         width={2880}
         height={1010}

@@ -19,7 +19,7 @@ function Header(){
             <Link href="/">О нас</Link>
             <Link href="/">Производители</Link>
             <Link href="/">Гарантии и возврат</Link>
-            <Link href="/">Доставка</Link>
+            <Link href="/Delivery">Доставка</Link>
             <Link href="/">Оплата</Link>
             <Link href="/">Контакты</Link>
           </div>

@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 import styles from './ProductCard.module.scss';
 
-import { Product } from '@/types/product';
+import { ProductCard as ProductCardType } from '@/types/product';
 
-export default function ProductCard({ product }: { product: Product }) {
+export default function ProductCard({ product }: { product: ProductCardType }) {
     return (
         <div className={styles.productCard}>
           <div className={styles.imageWrapper}>
-            <Image width={300} height={220} src={product.image} alt="product"/>
+            <Image width={300} height={220} src={product.imageUrl} alt="product"/>
             <Image width={102} height={25} src="/Assets/images/HitOfSales.png" alt="HitOfSales" className={styles.HitOfSales}/>
           </div>
           <div className={styles.description}>
